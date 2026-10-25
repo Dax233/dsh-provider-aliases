@@ -1,0 +1,12 @@
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+*.tmp
+
+# generated source reference (regenerate with tools/sync.mjs)
+lib/index.js.orig
+
+# installs
+node_modules/

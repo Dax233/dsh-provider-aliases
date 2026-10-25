@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Provider Aliases",
+    "description": "Create any number of credential routes over an installed model catalog (for example several OpenCode Go plans), each with its own API key."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "模型别名",
+    "description": "为一个内置模型目录创建任意数量的凭据路由（例如多个 OpenCode Go 套餐），每条路由使用自己的 API Key。"
+  }
+}

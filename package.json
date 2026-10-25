@@ -1,0 +1,80 @@
+{
+  "name": "@deepseek-ai/dsh-llm-pi-ai",
+  "version": "0.2.1-rc.3",
+  "private": true,
+  "description": "Route aliases for DeepSeek Harness pi-ai: the bundled @deepseek-ai/dsh-llm-pi-ai adapter, extended so a route may name another installed catalog as `catalog` (several credential routes over one provider catalog, e.g. multiple OpenCode Go plans), with a Settings page to manage them.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "engines": {
+    "dsh": "^0.2.1-rc.3"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib/index.js",
+    "client.js",
+    "locale/*.json",
+    "icon.svg",
+    "LICENSE",
+    "NOTICE.md",
+    "README.md",
+    "profile-patch.example.yml",
+    "tools/*.mjs"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "scripts": {
+    "sync": "node tools/sync.mjs",
+    "install": "node tools/install.mjs",
+    "test": "node --test tests/manifest.test.mjs"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "pi-ai",
+    "provider-aliases",
+    "opencode-go"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-brand": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-util-values": "^0.2.1-rc.3",
+    "@deepseek-ai/schemastery": "~3.18.5",
+    "@earendil-works/pi-ai": "^1.1.0",
+    "@deepseek-ai/cordis": "~4.0.5",
+    "@deepseek-ai/dsh-attachment": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-authorization": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-credentials": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-fs": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-launch-environment": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-llm": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-timeout": "^0.2.1-rc.3",
+    "@deepseek-ai/cordis-plugin-loader": "~1.0.6"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis-plugin-loader": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dax233/dsh-provider-aliases.git"
+  },
+  "homepage": "https://github.com/Dax233/dsh-provider-aliases#readme",
+  "bugs": {
+    "url": "https://github.com/Dax233/dsh-provider-aliases/issues"
+  }
+}
