@@ -121,6 +121,7 @@ npm test                            # 离线校验
 
 ## 许可
 
-本仓库 Host 半边是 `@deepseek-ai/dsh-llm-pi-ai`（MIT，Copyright (c) 2026
-DeepSeek）的修改副本，保留上游 `LICENSE`，修改说明见 `NOTICE.md`；Client 半边
-与工具为同一 MIT 许可下的原创代码。
+本仓库原创部分（`client.js`、`tools/`、`locale/`、`icon.svg`、`README.md`、`tests/`）
+版权归 Dax233；Host 半边 `lib/index.js` 是 `@deepseek-ai/dsh-llm-pi-ai`
+（MIT，Copyright (c) 2026 DeepSeek）的修改副本，上游署名按 MIT 要求保留。
+`LICENSE` 同时载明两段声明，修改说明见 `NOTICE.md`。

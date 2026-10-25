@@ -1,6 +1,9 @@
 MIT License
 
+Copyright (c) 2026 Dax233
+  original portions: client.js, tools/, locale/, icon.svg, README.md, tests/
 Copyright (c) 2026 DeepSeek
+  lib/index.js, a modified copy of @deepseek-ai/dsh-llm-pi-ai
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

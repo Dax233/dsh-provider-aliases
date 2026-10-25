@@ -3,8 +3,9 @@
 The adapter half of this package (`lib/index.js`) is a modified copy of
 `@deepseek-ai/dsh-llm-pi-ai` (MIT License, Copyright (c) 2026 DeepSeek),
 extracted from the installed DeepSeek Harness build at `resources/app.asar`
-and patched by `tools/sync.mjs`. The upstream license text is reproduced in
-`LICENSE`.
+and patched by `tools/sync.mjs`. `LICENSE` carries both notices: Dax233 for the
+original portions of this repository, and DeepSeek for the modified upstream
+adapter (the upstream MIT text is otherwise reproduced unchanged).
 
 Adapter modifications:
 
