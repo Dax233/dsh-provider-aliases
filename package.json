@@ -1,13 +1,13 @@
 {
   "name": "@deepseek-ai/dsh-llm-pi-ai",
-  "version": "0.2.1-rc.3",
+  "version": "0.2.1-rc.5",
   "private": true,
   "description": "Route aliases for DeepSeek Harness pi-ai: the bundled @deepseek-ai/dsh-llm-pi-ai adapter, extended so a route may name another installed catalog as `catalog` (several credential routes over one provider catalog, e.g. multiple OpenCode Go plans), with a Settings page to manage them.",
   "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
   "engines": {
-    "dsh": "^0.2.1-rc.3"
+    "dsh": "^0.2.1-rc.5"
   },
   "exports": {
     ".": "./lib/index.js",
@@ -50,18 +50,18 @@
     "opencode-go"
   ],
   "peerDependencies": {
-    "@deepseek-ai/dsh-brand": "^0.2.1-rc.3",
-    "@deepseek-ai/dsh-util-values": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-brand": "^0.2.1-rc.5",
+    "@deepseek-ai/dsh-util-values": "^0.2.1-rc.5",
     "@deepseek-ai/schemastery": "~3.18.5",
     "@earendil-works/pi-ai": "^1.1.0",
     "@deepseek-ai/cordis": "~4.0.5",
-    "@deepseek-ai/dsh-attachment": "^0.2.1-rc.3",
-    "@deepseek-ai/dsh-authorization": "^0.2.1-rc.3",
-    "@deepseek-ai/dsh-credentials": "^0.2.1-rc.3",
-    "@deepseek-ai/dsh-fs": "^0.2.1-rc.3",
-    "@deepseek-ai/dsh-launch-environment": "^0.2.1-rc.3",
-    "@deepseek-ai/dsh-llm": "^0.2.1-rc.3",
-    "@deepseek-ai/dsh-timeout": "^0.2.1-rc.3",
+    "@deepseek-ai/dsh-attachment": "^0.2.1-rc.5",
+    "@deepseek-ai/dsh-authorization": "^0.2.1-rc.5",
+    "@deepseek-ai/dsh-credentials": "^0.2.1-rc.5",
+    "@deepseek-ai/dsh-fs": "^0.2.1-rc.5",
+    "@deepseek-ai/dsh-launch-environment": "^0.2.1-rc.5",
+    "@deepseek-ai/dsh-llm": "^0.2.1-rc.5",
+    "@deepseek-ai/dsh-timeout": "^0.2.1-rc.5",
     "@deepseek-ai/cordis-plugin-loader": "~1.0.6"
   },
   "peerDependenciesMeta": {
