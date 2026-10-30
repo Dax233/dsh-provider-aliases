@@ -15,7 +15,7 @@ provider 同时挂多条凭据路由（例如两个 OpenCode Go 套餐、同一�
 ## 一次安装
 
 需要 DSH Desktop 0.2.x（Windows 10/11）。本仓库的 `lib/index.js` 由
-**DSH 0.2.1-rc.3** 生成。
+**DSH 0.2.1-rc.5** 生成。
 
 ```sh
 dsh plugin --profile desktop add github:Dax233/dsh-provider-aliases
